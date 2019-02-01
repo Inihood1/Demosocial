@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inihood.funspace.android.me">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.screen.PORTRAIT"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".helper.NetworkMonitor">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".auth.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GRAY"/>
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN" />
+        <activity
+            android:name=".auth.SetupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TEAL" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".NewPostActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIME" />
+        <activity
+            android:name=".CommentsActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTGREEN" />
+        <activity
+            android:name=".auth.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AMBER" />
+        <activity
+            android:name=".PuplicProfileActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DEEPORANGE" />
+        <activity
+            android:name=".SinglePostActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GRAY" />
+        <activity
+            android:name=".FollowingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BROWN" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".auth.WorkingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN" />
+        <activity
+            android:name=".post.Image"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".post.Audio"
+            android:theme="@style/AppTheme.BLUEGRAY" />
+        <activity
+            android:name=".post.Video"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BLUEGRAY" />
+        <activity
+            android:name=".discover.Discover"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DEEPORANGE" />
+        <activity
+            android:name=".discover.InterestDetailAcivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN" />
+        <activity
+            android:name=".discover.InterestGetStarted"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BLUEGRAY" />
+        <activity
+            android:name=".discover.CreateInterestActivity"
+            android:parentActivityName=".discover.Discover"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE" />
+        <activity
+            android:name=".discover.CreateInterestSecondStep"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".discover.PostNewInterestActivity"
+            android:parentActivityName=".discover.InterestDetailAcivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DEEPORANGE"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".discover.InterestSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE" />
+        <activity
+            android:name=".discover.SeeAlMembersActivity"
+            android:parentActivityName=".discover.InterestSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIME" />
+        <activity
+            android:name=".discover.AddMembersAcivity"
+            android:parentActivityName=".discover.InterestSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN" />
+        <activity
+            android:name=".splash.ProfileSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ORANGE" />
+        <activity
+            android:name=".splash.DiscoverActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE" />
+        <activity
+            android:name=".PhotoViewer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE" />
+        <activity
+            android:name=".ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIME" />
+        <activity
+            android:name=".IncomingActitity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SendActivity" />
+
+        <service android:name=".helper.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity android:name=".NotificationActivity">
+            <intent-filter>
+                <action android:name="com.inihood.funspace.android.me.TARGETNOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".call.activities.LoginActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.LIGHTBLUE" />
+        <activity
+            android:name=".call.activities.OpponentsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GREEN" />
+        <activity android:name=".call.activities.PermissionsActivity" />
+        <activity
+            android:name=".call.activities.CallActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BLUEGRAY" />
+        <activity
+            android:name=".call.activities.SettingsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ORANGE" />
+
+        <service android:name=".call.services.CallService" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.quickblox.sample.groupchatwebrtc" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".call.services.gcm.GcmPushListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.quickblox.messages.services.gcm.QBGcmPushInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.quickblox.messages.TYPE"
+            android:value="GCM" />
+        <meta-data
+            android:name="com.quickblox.messages.SENDER_ID"
+            android:value="@string/sender_id" />
+        <meta-data
+            android:name="com.quickblox.messages.QB_ENVIRONMENT"
+            android:value="DEVELOPMENT" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".call.activities.SplashActivity"
+            android:theme="@style/AppTheme.LIME" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".auth.WelcomeActivity"
+            android:theme="@style/AppTheme.PURPLE">
+        </activity>
+    </application>
+
+</manifest>

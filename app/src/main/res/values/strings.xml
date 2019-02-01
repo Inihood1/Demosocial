@@ -1,0 +1,548 @@
+<resources>
+    <string name="app_name">Demo social</string>
+    <string name="pass_hint">Password...</string>
+    <string name="email_hint">Your Email...</string>
+    <string name="login_logo_desc">Logo Login Page</string>
+    <string name="login_btn_text">Login to account</string>
+    <string name="login_reg_btn_text">Need a new Account?</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="reg_btn_text">Create new Account</string>
+    <string name="reg_login_text">Already have an Account?</string>
+    <string name="reg_pass_text">Password...</string>
+    <string name="reg_confirm_pass_text">Confirm Password...</string>
+    <string name="setup_name_hint">Your Name...</string>
+    <string name="setup_save_btn">Save Account Settings</string>
+    <string name="setup_name_hint_text">Your Name ...</string>
+    <string name="setup_btn_name_text">Save Account Settings</string>
+    <string name="post_desc_hint">Add Description ...</string>
+    <string name="new_post_btn_hint">Post Blog</string>
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_notification_text">Notification</string>
+    <string name="bottom_ac_text">Account</string>
+
+    <string name="default_notification_channel_id">INI HOOD</string>
+    <string name="max_select_prompt">Select the maximum selection</string>
+    <string name="media_type_prompt">Select the media type filter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_name">loading name</string>
+    <string name="loading_comment">Loading Comment...</string>
+    <string name="say_something_about_this_post">Say something</string>
+    <string name="comment_error">Well this is embarrassing.   we are having trouble displaying comments or the are no comment to display</string>
+    <string name="call">Call</string>
+    <string name="select_contact_s_to_call">Select contact(s) to call</string>
+    <string name="video_call">Video call</string>
+    <string name="create_a_conference">Create a conference</string>
+    <string name="exit_warning">Do not exit the app at this point</string>
+    <string name="a_little_house_keeping">A little house keeping..</string>
+    <string name="activity_gallery_image_transition" translatable="false">%s[image]</string>
+    <string name="activity_gallery_checkbox_transition" translatable="false">%s[checkbox]</string>
+    <string name="activity_gallery_permission_request_explanation">To fetch your Media, allow storage permission in App Permission Settings.</string>
+    <string name="activity_gallery_permission_request_settings">Settings</string>
+    <string name="activity_gallery_action_select_all">Select All</string>
+    <string name="activity_gallery_action_clear">Clear</string>
+    <string name="activity_gallery_no_images">No images.</string>
+    <string name="activity_gallery_max_selection_reached">You have reached the max number of photos.</string>
+    <string name="activity_gallery_will_exceed_max_selection">You will exceed the max number of photos.</string>
+    <string name="activity_gallery_bucket_all_media">All Media</string>
+    <string name="new_post">New Post</string>
+    <string name="what_s_up_with_you">What\'s up with you?</string>
+    <string name="gallery_tip">Tap and hold to select multiple</string>
+    <string name="what_s_up">What\'s up with you?</string>
+    <string name="what_s_up_with_the_audio">what\'s up with the audio</string>
+    <string name="what_s_up_with_the_video">what\'s up with the video</string>
+    <string name="discover">Discover</string>
+
+    <string-array name="categories">
+
+        <item>Agriculture</item>
+        <item>Automobile</item>
+        <item>Politics</item>
+        <item>Nature</item>
+        <item>Software</item>
+        <item>Fashion</item>
+        <item>Government</item>
+        <item>Electronics</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Food</item>
+        <item>Banking and finance</item>
+        <item>Education</item>
+        <item>Religion</item>
+        <item>Telecommunication</item>
+        <item>Social media</item>
+
+    </string-array>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="recomm">Recommended</string>
+    <string name="yours">Yours</string>
+    <string name="well_this_is_embarrassing_n_we_are_having_retrieving_interest">Well this is embarrassing   we are having retrieving interest</string>
+    <string name="by_clicking_continue_you_agree_to_funspace_terms_about_interest">By clicking \'Continue\' You agree to Funspace terms about Interest</string>
+    <string name="title">Title</string>
+    <string name="people_will_need_to_ask_to_join_your_interest">People will need to ask to join</string>
+    <string name="visible_to_everyone">Visible to everyone</string>
+    <string name="publi">Public</string>
+    <string name="ask_to_join">Ask to join</string>
+    <string name="see_all_members">See all members</string>
+    <string name="settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="members">Members</string>
+    <string name="member">member</string>
+    <string name="_based_on_a_category">Your interest must be based on a category</string>
+    <string name="select_a_category">Select a category</string>
+
+    <string name="splash_app_title">Funspace \n Call</string>
+    <string name="splash_create_session_error">Create session errors:</string>
+
+
+    <!-- Dialogs strings. -->
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+    <string name="dlg_login">Login…</string>
+    <string name="dlg_sign_in">Sign In…</string>
+    <string name="dlg_updating_user">Updating user…</string>
+    <string name="dlg_creating_new_user">Creating new user…</string>
+    <string name="dlg_logout">Logout…</string>
+    <string name="dlg_loading_opponents">Loading opponents…</string>
+
+
+    <!-- Errors strings. -->
+    <string name="error_max_opponents_count">You can select up to %d opponents</string>
+    <string name="sign_up_error">Error creating new user, please try again</string>
+    <string name="sign_in_error_with_error">Sign In error. Error</string>
+    <string name="sign_in_error_without_error">Sign In error</string>
+    <string name="logout_user_with_error">Logout user error. Error</string>
+
+    <string name="error_empty_login">Login can not be empty</string>
+    <string name="error_empty_chat_room_name">Chat room name can not be empty</string>
+
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error</string>
+    <string name="update_user_error">Update user error. Error</string>
+    <string name="loading_users_error">Loading users error. Error</string>
+
+    <string name="permission_unavailable">%s is not available now!</string>
+
+    <string name="field_name_user_name">User name</string>
+    <string name="field_name_chat_room_name">Chat room name</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without space, the first char must be a letter</string>
+
+    <!--menu-->
+    <string name="action_start_login">Done</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_screen_share">Screen share</string>
+    <string name="action_update_opponens_list">Update opponents list</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_start_video_call">Video call</string>
+    <string name="action_start_audio_call">Audio call</string>
+
+
+    <!--action bar-->
+    <string name="actionbar_title_settings">Settings</string>
+    <string name="title_login_activity">Enter to chat</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+    <string name="title_one_user_selected">%s user selected</string>
+    <string name="tile_many_users_selected">%s users selected</string>
+
+
+    <string name="incoming_call">Incoming Call</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="edit_opponents_list">Edit opponents list</string>
+    <string name="incoming_audio_call">Incoming Audio Call</string>
+    <string name="incoming_video_call">Incoming Video Call</string>
+    <string name="outgoing_audio_video_call_title">%s\n\nRinging</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+
+
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="text_status_closed">Closed</string>
+    <string name="text_status_time_out">Time Out</string>
+    <string name="text_status_failed">Failed</string>
+
+    <string name="text_welcoming_message">Please enter username and chat room name. \nYou can join existed chat room.</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_chat_room_name">Chat room name</string>
+
+    <string name="text_select_user_to_call">Select users to call</string>
+
+    <string name="call_was_stopped_connection_lost">Call was stopped because connection was lost</string>
+    <string name="connection_lost">Connection lost</string>
+
+    <string name="text_push_notification_message">"%s is calling you"</string>
+
+
+    <!-- Settings strings. -->
+    <string name="title_video_category">Video</string>
+    <string name="title_call_settings_category">Call Settings</string>
+
+    <string name="pref_default_value">Default</string>
+    <integer name="pref_default_int_value">0</integer>
+
+    <string name="pref_default_camera_key">default_camera_preference</string>
+    <string name="pref_default_camera_title">Default Camera</string>
+    <string name="pref_default_camera_dlg">Select default camera</string>
+    <string name="pref_default_camera_default">0</string>
+
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+
+    <string name="pref_startbitrate_key">startbitrate_preference</string>
+    <string name="pref_startbitrate_title">Start bitrate setting</string>
+    <string name="pref_startbitrate_dlg">Start bitrate setting</string>
+    <string name="pref_startbitrate_default">Default</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Built-in AEC is not available</string>
+
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <string name="pref_manage_speakerphone_by_proximity_key">manage_speakerphone_by_proximity_preference</string>
+    <string name="pref_manage_speakerphone_by_proximity_title">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_dlg">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_summary">Enables managing of Speaker Phone by Proximity Sensor for Audio calls</string>
+    <string name="pref_manage_speakerphone_by_proximity_default">false</string>
+
+    <!--Call Settings-->
+
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="please_wait">Please wait…</string>
+
+    <string name="dlg_error">Error</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_loading">Loading…</string>
+    <string name="dlg_choose_image_from">Select photo from…</string>
+    <string name="dlg_retry">Retry</string>
+
+    <string name="init_configs_error">Initializing configs error</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+
+    <string name="splash_app_version">v %s</string>
+
+    <string name="error_parsing_configs">Parsing sample\'s configs error</string>
+
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="pref_version">QuickBlox WebRTC\nBuild version 1.12</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="ringing">Ringing</string>
+    <string name="stop_share">Stop</string>
+    <string name="camera_swicth_failed">\"Failed switch camera\"</string>
+
+    <string name="sender_id">761750217637</string>
+    <string name="we_need_a_little_info_to_continue">We need a little info to continue</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="by_clicking_continue_you_agree_to_funspace_terms_of_service">By clicking \'Continue\' you agree to Funspace terms of service</string>
+    <string name="click_continue">Thanks for installing click \'continue when you are ready\'</string>
+
+</resources>

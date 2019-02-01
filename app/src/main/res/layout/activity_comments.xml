@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".CommentsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/comment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/name_post"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:weightSum="100"
+        android:id="@+id/yy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:maxLength="1000"
+            android:layout_weight="90"
+            android:id="@+id/comment_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundi"
+            android:ems="10"
+            android:hint="@string/say_something_about_this_post"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="5"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+
+        <ImageSwitcher
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_marginEnd="1dp"
+            android:id="@+id/comment_post_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="10"
+            android:padding="5dp"
+            android:layout_marginRight="1dp" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        tools:listitem="@layout/comment_list_item"
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/yy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comment_toolbar"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Recommended">
+
+   <com.inihood.funspace.android.me.helper.RecyclerViewEmptySupport
+       android:layout_width="match_parent"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+       android:id="@+id/recyclerview"
+       android:layout_height="match_parent">
+   </com.inihood.funspace.android.me.helper.RecyclerViewEmptySupport>
+
+    <android.support.design.widget.FloatingActionButton
+        app:fab_colorRipple="@color/white"
+        android:id="@+id/bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/fab_add"
+        android:layout_marginRight="17dp" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:background="@color/orange1"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:background="@drawable/roundi"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/gallery"
+                android:focusable="true"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_gallery" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/roundi"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/camera"
+                android:focusable="true"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_camera" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnfollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundi"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

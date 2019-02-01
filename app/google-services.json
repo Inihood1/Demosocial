@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1040977565763",
+    "firebase_url": "https://planb-e683f.firebaseio.com",
+    "project_id": "planb-e683f",
+    "storage_bucket": "planb-e683f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040977565763:android:87ca6a07031b8392",
+        "android_client_info": {
+          "package_name": "com.inihood.funspace.android.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040977565763-fobcjt19ql0n82ug0pa6akh0slg7ovt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inihood.funspace.android.me",
+            "certificate_hash": "c2821f1387d236b407719fa467bdfdca12691dd2"
+          }
+        },
+        {
+          "client_id": "1040977565763-js896d5g9d2l9rfsqag8m5nov6rfic8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9AXwXlYVdGqYHEN-bGRB5HXTGlpcDYAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040977565763-js896d5g9d2l9rfsqag8m5nov6rfic8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

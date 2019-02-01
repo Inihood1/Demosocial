@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="notificationFragment"
+    android:background="@android:color/white"
+    tools:context=".fragment.NotificationFragment">
+
+   <com.inihood.funspace.android.me.helper.RecyclerViewEmptySupport
+       android:id="@+id/not"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </com.inihood.funspace.android.me.helper.RecyclerViewEmptySupport>
+
+   <TextView
+       android:drawableTop="@drawable/ic_comment_error"
+       android:layout_gravity="center"
+       android:textAlignment="center"
+       android:textSize="30sp"
+       android:textColor="@color/black"
+       android:id="@+id/list_empty"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="All caught up" />
+
+
+
+</FrameLayout>
